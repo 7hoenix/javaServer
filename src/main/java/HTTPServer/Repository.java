@@ -1,6 +1,6 @@
 package HTTPServer;
 
-public interface DataStorage {
+public interface Repository {
     void store(String key, String value);
     String retrieve(String key);
     void update(String key, String value);
